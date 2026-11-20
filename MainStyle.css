@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family:Ink Free;
+    font-size: 45px;
+}
+.heartimg{
+    width: 50px;
+    height: 50px;
+}
+.helloimg{
+    width: 50px;
+    height: 50px;
+}
