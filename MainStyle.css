@@ -5,6 +5,12 @@
 body {
     margin: 0;
     width: 100%;
+    background-image: url(colored.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    animation: fadeIn 0.3s ease-in-out;
 }
 
 /* Header */
@@ -22,7 +28,7 @@ body {
 
 .tagline {
     margin: 0;
-    font-family: Comic Sans MS;
+    font-family: IMPACT;
     font-size: clamp(40px, 10vw, 70px);
     text-align: center;
     color: pink;
@@ -41,12 +47,12 @@ body {
 .subheading {
     width: 100%;
     background: rgba(255, 255, 255, 0.21); 
-    border-radius: 16px;
+    border-radius: 10px;
     backdrop-filter: blur(17.9px);
     -webkit-backdrop-filter: blur(17.6px);
     border: 1px solid rgba(255, 96, 131, 1);     
     padding: 12px 16px;
-    font-family: Comic Sans MS;
+    font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
     font-size: clamp(16px, 2vw, 24px);
     font-weight: bold;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -65,7 +71,7 @@ body {
 .navigation a {
     display: block;
     padding: 8px 4px;
-    color: rgb(14, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
     cursor: pointer;
@@ -74,6 +80,14 @@ body {
 
 .navigation a:hover{
     color: rgb(233, 87, 111);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
 }
 /* Tablets */
 @media (max-width: 768px) {
@@ -127,7 +141,7 @@ body {
 }
 /*ANIMATIONS*/
     @keyframes fadeIn {
-        from { opacity: -1; }
+        from { opacity: 0; }
         to { opacity: 1; }
     }
     @keyframes UpFadeIn {
