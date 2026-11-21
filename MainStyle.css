@@ -5,12 +5,7 @@
 body {
     margin: 0;
     width: 100%;
-    background-image: url(colored.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    animation: fadeIn 0.3s ease-in-out;
+    background-color: #FFDDDD;
 }
 
 /* Header */
@@ -31,7 +26,7 @@ body {
     font-family: IMPACT;
     font-size: clamp(40px, 10vw, 70px);
     text-align: center;
-    color: pink;
+    color: #FA699E;
 }
 
 .heartimg,
@@ -71,7 +66,7 @@ body {
 .navigation a {
     display: block;
     padding: 8px 4px;
-    color: rgb(255, 255, 255);
+    color: #FF9FC7;
     text-decoration: none;
     text-align: center;
     cursor: pointer;
