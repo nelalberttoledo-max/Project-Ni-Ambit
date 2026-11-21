@@ -93,6 +93,27 @@ body {
     gap: 16px;
     width: 100%;
 }
+/* our images */
+.about-ambet{
+    margin-top: 100px;  
+}
+.bigbox{
+    height: 400px;
+    position: absolute;
+    left: 20px;
+    width: 10px;
+    background-color: #FA699E;
+    animation:fadeIn 0.90s ease-in-out;
+}
+.ambitimg{
+    width:250px;
+    height:300px;
+    position: absolute;
+    top: 394px;
+    left: 40px;
+    border-radius: 10px;
+    display: flex;
+}
 /* Tablets */
 @media (max-width: 768px) {
     .header {
