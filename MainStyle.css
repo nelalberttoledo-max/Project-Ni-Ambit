@@ -110,7 +110,7 @@ body {
     height:300px;
     position: absolute;
     top: 394px;
-    left: 40px;
+    left: 300px;
     border-radius: 10px;    
     display: flex;
     animation: left 1s ease-in-out;
@@ -177,6 +177,6 @@ body {
         to { transform: translateY(0); opacity: 1; }
     }
     @keyframes left{
-        from { transform: translateX(-100%); opacity: 0; }
-        to { transform: translateX(0); opacity: 1; }
+        from { transform: translateX(-300px); opacity: 0; }
+        to { transform: translateX(0px); opacity: 1; }
     }
