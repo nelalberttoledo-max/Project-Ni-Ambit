@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -52,6 +56,11 @@ body {
     font-weight: bold;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     animation: UpFadeIn 1s ease-in-out;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .navigation {
@@ -63,7 +72,7 @@ body {
     width: 100%;
 }
 
-.navigation p {
+.navigation a {
     display: block;
     padding: 8px 4px;
     color: #FF9FC7;
@@ -73,7 +82,7 @@ body {
     transition: color 0.3s ease;
 }
 
-.navigation p:hover{
+.navigation a:hover{
     color: rgb(233, 87, 111);
 }
 .content{
@@ -87,7 +96,7 @@ body {
 /* Tablets */
 @media (max-width: 768px) {
     .header {
-        min-height: 90px;
+        min-height: 60px;
         padding: 10px 16px;
     }
 
@@ -97,13 +106,14 @@ body {
 
     .navigation {
         gap: 6px 16px;
+        height: auto;
     }
 }
 
 /* Phones */
 @media (max-width: 480px) {
     .header {
-        min-height: 78px;
+        min-height: 60px;
         gap: 8px;
         padding: 8px 12px;
     }
@@ -120,7 +130,8 @@ body {
 
     .subheading {
         padding: 8px;
-        font-size: 60px;
+        font-size: 40px;
+        height: 70px;
     }
 
     .navigation {
@@ -129,7 +140,7 @@ body {
         gap: 4px 8px;
     }
 
-    .navigation p {
+    .navigation a {
         padding: 10px 4px;
         overflow-wrap: anywhere;
     }
