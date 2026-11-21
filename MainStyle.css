@@ -5,6 +5,7 @@
     padding: 20px;
     font-family:Ink Free;
     font-size: 45px;
+    height: 70px;
 }
 .heartimg{
     width: 50px;
@@ -13,4 +14,37 @@
 .helloimg{
     width: 50px;
     height: 50px;
+}
+.subheading{
+    background-color:pink;
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    font-family:Corbel;
+    font-weight: bold;
+    text-align: center; 
+     display: flex;
+    align-items: center;     
+     justify-content: center;
+     border-bottom: 1px solid rgb(0, 0, 0);
+     border-top: 1px solid rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    font-family:Ink Free;
+    font-size: 30px;
 }
